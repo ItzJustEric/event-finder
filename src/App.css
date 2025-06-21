@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  
+}
+
+p {
+  font-size: 1.2rem;
+  color: #000000;
+  line-height: 1.5;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+
+
+
+
+.main-title {
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5em;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  color: #64748b;
+  margin-bottom: 2em;
+  font-weight: 400;
+}
+
+.highlight{
+  background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(119, 87, 199, 1) 50%, rgba(237, 83, 183, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+
+}
